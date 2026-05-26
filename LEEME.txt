@@ -1,0 +1,44 @@
+======================================================================
+              INSTRUCCIONES DE DESPLIEGUE EN GITHUB Y STREAMLIT
+======================================================================
+
+Esta carpeta contiene todo lo necesario para subir tu trabajo a GitHub
+y publicarlo en Streamlit Cloud. Tienes dos opciones de aplicación:
+
+----------------------------------------------------------------------
+OPCIÓN A: Publicar el Dashboard Interactivo (Recomendado)
+----------------------------------------------------------------------
+Este es el panel interactivo con filtros dinámicos (Región, Edad, etc.)
+y gráficos de Plotly.
+
+Archivos que debes subir a GitHub para esta opción:
+  1. app.py
+  2. clientes_segmentados.csv
+  3. requirements.txt
+
+*Nota: No es necesario subir la carpeta "data" si eliges esta opción.*
+
+----------------------------------------------------------------------
+OPCIÓN B: Publicar las Diapositivas de tu grupo
+----------------------------------------------------------------------
+Si tu grupo prefiere usar la presentación de diapositivas (slides)
+que describe el README.md original:
+
+  1. Primero, recupera el app.py de tu grupo: haz clic derecho sobre
+     el archivo "app.py" en tu explorador de Windows, selecciona
+     "Historial de versiones" y restaura la versión anterior de tu grupo.
+  2. Sube a tu repositorio de GitHub los siguientes archivos:
+     - app.py (restaurado)
+     - requirements.txt
+     - La carpeta "data/" completa (con sus 17 archivos precalculados).
+
+======================================================================
+¿CÓMO PUBLICAR EN STREAMLIT CLOUD?
+======================================================================
+1. Crea un repositorio público en tu cuenta de GitHub (ej. trabajo2-marketing).
+2. Sube los archivos correspondientes a la opción elegida directamente
+   a la raíz de tu repositorio.
+3. Entra a https://share.streamlit.io/ e inicia sesión con tu cuenta de GitHub.
+4. Presiona "Create app", selecciona tu repositorio, la rama (main o master)
+   y escribe "app.py" en el campo "Main file path".
+5. Presiona "Deploy" y listo. ¡Obtendrás el link para enviarle al profesor!
